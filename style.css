@@ -68,6 +68,26 @@ a:hover{border-bottom-color:var(--maroon)}
 .contact-line a:hover{color:var(--maroon); border-bottom-color:var(--maroon)}
 .contact-line.links{margin-top:8px}
 
+.resume-btn{
+  display:inline-block;
+  margin-top:24px;
+  font-family:'Inter',sans-serif;
+  font-size:.82rem;
+  font-weight:600;
+  letter-spacing:.03em;
+  color:var(--navy);
+  background:transparent;
+  border:1px solid var(--navy);
+  border-radius:2px;
+  padding:9px 22px;
+}
+.resume-btn:hover{
+  color:var(--white);
+  background:var(--navy);
+  border-bottom:1px solid var(--navy);
+  text-decoration:none;
+}
+
 /* ---------- Subnav ---------- */
 .subnav{
   position:sticky; top:0; z-index:20;
