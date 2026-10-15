@@ -1,6 +1,6 @@
 # Farah Akhtar — Portfolio
 
-Academic portfolio and CV site for Farah Akhtar, PhD Candidate in Economics at Universiti Tunku Abdul Rahman (UTAR).
+Academic portfolio and CV site for Farah Akhtar, PhD in Economics from Universiti Tunku Abdul Rahman (UTAR).
 
 Live site: https://farahmahesar215-max.github.io/farah-akhtar/
 
