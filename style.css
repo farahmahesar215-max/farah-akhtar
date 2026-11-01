@@ -152,6 +152,7 @@ main{padding-bottom:20px}
   margin-top:-16px;
   margin-bottom:24px;
 }
+.section-sub--spaced{margin-top:34px; margin-bottom:18px}
 .summary-text{font-size:1.02rem; color:var(--ink); max-width:68ch}
 
 /* ---------- Education ---------- */
