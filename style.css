@@ -152,6 +152,9 @@ main{padding-bottom:20px}
   margin-top:-16px;
   margin-bottom:24px;
 }
+.section-sub--spaced{margin-top:34px; margin-bottom:18px}
+.lang-row--spaced{margin-top:22px}
+#skills tbody td:first-child{font-weight:600; width:34%; color:var(--gold-bright)}
 .summary-text{font-size:1.02rem; color:var(--ink); max-width:68ch}
 
 /* ---------- Education ---------- */
@@ -333,6 +336,43 @@ tbody tr:nth-child(even){background:rgba(234,230,218,.03)}
 .site-footer a{color:var(--gold); border-bottom-color:transparent}
 .site-footer a:hover{color:var(--gold-bright); border-bottom-color:var(--gold-bright)}
 .site-footer .fine{color:var(--ink-faint); font-size:.76rem; margin-top:10px}
+
+/* ---------- Teaching portfolio ---------- */
+.hero--compact{padding:48px 0 30px}
+.eyebrow{
+  font-family:'Inter',sans-serif;
+  font-size:.74rem;
+  font-weight:600;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--gold);
+  margin:0 0 10px;
+}
+.hero-actions{display:flex; justify-content:center; gap:12px; flex-wrap:wrap; margin:0}
+.hero-actions .resume-btn{margin-top:22px}
+.prose p{max-width:68ch; margin:0 0 16px; font-size:1.02rem}
+.prose p:last-child{margin-bottom:0}
+.note{font-family:'Inter',sans-serif; color:var(--ink-faint); font-size:.84rem; margin:14px 0 0}
+.nowrap{white-space:nowrap}
+.metric-cell{font-weight:600; color:var(--gold-bright); white-space:nowrap; font-variant-numeric:tabular-nums}
+.stat-row{display:grid; grid-template-columns:repeat(auto-fit, minmax(220px,1fr)); gap:14px; margin-bottom:20px}
+.stat-card{
+  background:var(--bg-alt);
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:18px 20px;
+  display:flex; flex-direction:column; gap:6px;
+}
+.stat-num{font-size:2rem; font-weight:600; color:var(--gold-bright); line-height:1; font-variant-numeric:tabular-nums}
+.stat-label{font-family:'Inter',sans-serif; font-size:.84rem; color:var(--ink-soft)}
+.course-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(190px,1fr)); gap:14px}
+.course-group{background:var(--bg-alt); border:1px solid var(--line); border-radius:var(--radius); padding:16px 18px; min-width:0}
+.course-group h3{font-size:.95rem; color:var(--gold-bright); font-style:italic; margin-bottom:8px}
+.course-group ul{margin:0; padding-left:18px}
+.course-group li{font-size:.92rem; margin-bottom:5px}
+.course-group li::marker{color:var(--gold-soft)}
+.hero-inner > .resume-btn + .resume-btn{margin-left:10px}
+.portfolio-link{margin-top:22px; font-family:'Inter',sans-serif; font-size:.9rem; font-weight:600}
 
 /* ---------- Responsive ---------- */
 @media (max-width:640px){
