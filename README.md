@@ -7,6 +7,7 @@ Live site: https://farahmahesar215-max.github.io/farah-akhtar/
 ## Contents
 
 - `index.html` — page markup and content
+- `teaching.html` — teaching portfolio (philosophy, record, evaluations, courses)
 - `style.css` — styling
 
 ## Local preview
