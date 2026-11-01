@@ -153,6 +153,8 @@ main{padding-bottom:20px}
   margin-bottom:24px;
 }
 .section-sub--spaced{margin-top:34px; margin-bottom:18px}
+.lang-row--spaced{margin-top:22px}
+#skills tbody td:first-child{font-weight:600; width:34%; color:var(--gold-bright)}
 .summary-text{font-size:1.02rem; color:var(--ink); max-width:68ch}
 
 /* ---------- Education ---------- */
