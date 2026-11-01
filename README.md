@@ -4,6 +4,8 @@ Academic portfolio and CV site for Dr. Farah Akhtar, PhD in Economics, Universit
 
 Live site: https://farahmahesar215-max.github.io/farah-akhtar/
 
+Teaching portfolio: https://farahmahesar215-max.github.io/farah-akhtar/teaching.html
+
 ## Contents
 
 - `index.html` — page markup and content
